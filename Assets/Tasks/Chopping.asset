@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff44a2013a16da83ad02e143875d2aa, type: 3}
   m_Name: Chopping
   m_EditorClassIdentifier: 
-  name: Choppping
+  name: Chopping
   pointsBase: 100
