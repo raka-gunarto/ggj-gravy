@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a832e7c569d2e692d849d9c636d183a8, type: 3}
   m_Name: Nori
   m_EditorClassIdentifier: 
-  name: Vegetables
-  tex: {fileID: 0}
+  name: Nori
+  tex: {fileID: 2800000, guid: e0444f604eb8e8e498fed9609a4447e0, type: 3}

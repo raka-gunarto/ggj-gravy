@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bread
   m_EditorClassIdentifier: 
   name: Bread
-  tex: {fileID: 0}
+  tex: {fileID: 2800000, guid: 5ff7b06145f03364c892f0570506af8a, type: 3}

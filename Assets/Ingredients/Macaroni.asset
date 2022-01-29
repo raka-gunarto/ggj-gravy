@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a832e7c569d2e692d849d9c636d183a8, type: 3}
   m_Name: Macaroni
   m_EditorClassIdentifier: 
-  name: Vegetables
-  tex: {fileID: 0}
+  name: Macaroni
+  tex: {fileID: 2800000, guid: 0baa8307aea37b28ba2ac4abc7b292ef, type: 3}

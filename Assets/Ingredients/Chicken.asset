@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Chicken
   m_EditorClassIdentifier: 
   name: Chicken
-  tex: {fileID: 0}
+  tex: {fileID: 2800000, guid: 1313a00bcc6583a478666fc18cac7118, type: 3}

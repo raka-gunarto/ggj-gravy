@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a832e7c569d2e692d849d9c636d183a8, type: 3}
   m_Name: Meatballs
   m_EditorClassIdentifier: 
-  name: Vegetables
-  tex: {fileID: 0}
+  name: Meatballs
+  tex: {fileID: 2800000, guid: 9d85c39e145b9924893354fce34492fb, type: 3}

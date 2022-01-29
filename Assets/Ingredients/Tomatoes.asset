@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Tomatoes
   m_EditorClassIdentifier: 
   name: Tomatoes
-  tex: {fileID: 0}
+  tex: {fileID: 2800000, guid: 4289b1f90682d96418513f58a91bc6dd, type: 3}

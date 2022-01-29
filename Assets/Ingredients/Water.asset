@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a832e7c569d2e692d849d9c636d183a8, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
-  name: Vegetables
-  tex: {fileID: 0}
+  name: Water
+  tex: {fileID: 2800000, guid: 9efa459e594b12740ad6c2db4de4d302, type: 3}

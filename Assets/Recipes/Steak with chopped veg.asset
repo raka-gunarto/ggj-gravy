@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
+  m_Name: Steak with chopped veg
+  m_EditorClassIdentifier: 
+  name: Steak with chopped veg
+  foodTex: {fileID: 2800000, guid: 6288d1e0b4d6574edb34461779be3517, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 9cf0373f6c31d441bb14c62f04bb2b9e, type: 2}
+  - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 5606108b3777ed94f8feb216548fd487, type: 2}
