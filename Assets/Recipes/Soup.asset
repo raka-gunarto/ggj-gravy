@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
+  m_Name: Soup
+  m_EditorClassIdentifier: 
+  name: Soup
+  foodTex: {fileID: 2800000, guid: 3179af0f63e1f2b4db484b6c3658c4ec, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
+    ingredient: {fileID: 11400000, guid: 9cf0373f6c31d441bb14c62f04bb2b9e, type: 2}
+  - task: {fileID: 11400000, guid: 975adf765bcf82f0f9464b10bf4cfb33, type: 2}
+    ingredient: {fileID: 11400000, guid: 179264b012797d9179f47a1c2a070d14, type: 2}
