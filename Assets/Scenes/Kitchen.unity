@@ -932,7 +932,6 @@ MonoBehaviour:
   currentRecipe: {fileID: 0}
   currentRecipeTask: 0
   score: 0
-  items: []
 --- !u!4 &1661868104
 Transform:
   m_ObjectHideFlags: 0

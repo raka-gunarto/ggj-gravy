@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Burger
   m_EditorClassIdentifier: 
   name: Burger
-  foodTex: {fileID: 0}
+  foodTex: {fileID: 2800000, guid: c8965cb7ba7740b41a47a4505c216f4d, type: 3}
   tasks:
   - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
     ingredient: {fileID: 11400000, guid: c502f0637b7c0c9119f2b8c019aa9790, type: 2}

@@ -27,5 +27,5 @@ public class GameManager : MonoBehaviour
     public int currentRecipeTask;
 
     public float score;
-    public List<Item> items;
+    // public List<Item> items;
 }
