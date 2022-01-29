@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -8,6 +10,28 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     // public instance getter
     public static GameManager Instance { get { return _instance; } }
+
+    private GamePhase _phase;
+
+    public void SetPhase(GamePhase phase)
+    {
+        if (_phase != null)
+            _phase.Stop();
+        _phase = phase;
+        _phase.Start();
+    }
+
+    public Recipe GetRandomRecipe(int currentStage)
+    {
+        int count = 0;
+        Recipe[] stageRecipes = new Recipe[recipes.Count];
+        foreach (Recipe recipe in recipes)
+        {
+            //check stage v.s. currentStage and filter
+            stageRecipes[count++] = recipe;
+        }
+        return stageRecipes[(int)Math.Ceiling((double) UnityEngine.Random.Range(0, count))];
+    }
 
     // check if there are other GameManagers, if not nominate self as GameManager
     private void Awake()
@@ -19,6 +43,15 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this);
         }
+        LoadAssets();
+        SetPhase(new StartPhase());
+    }
+
+    private void LoadAssets()
+    {
+        //this will probably crash idk
+        Recipe[] recipes = (Recipe[]) AssetDatabase.LoadAllAssetsAtPath("Recipes");
+        this.recipes.AddRange(recipes);
     }
 
     public int stage;
@@ -28,4 +61,5 @@ public class GameManager : MonoBehaviour
 
     public float score;
     // public List<Item> items;
+    public List<Recipe> recipes;
 }

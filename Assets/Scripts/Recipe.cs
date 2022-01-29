@@ -16,4 +16,6 @@ public class Recipe : ScriptableObject
     }
     [SerializeField]
     private Task[] tasks;
+
+    public Task[] Tasks { get { return tasks; } }
 }
