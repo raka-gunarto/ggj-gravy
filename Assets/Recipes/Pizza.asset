@@ -17,13 +17,14 @@ MonoBehaviour:
   tasks:
   - task: {fileID: 11400000, guid: c70eaf300dded62458c1da762a4ca9f4, type: 2}
     ingredients:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 0c9e2322b51112d49bcfba7b7f6fec90, type: 2}
+    - {fileID: 11400000, guid: 055d32a4e4969ca1582b96e39aad7454, type: 2}
   - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
     ingredients:
     - {fileID: 11400000, guid: 8b00a2f24e8007f828d0195ff92e6f61, type: 2}
   - task: {fileID: 11400000, guid: 15826b7792e60c7cca0a1976b4f9ac93, type: 2}
     ingredients:
     - {fileID: 11400000, guid: 8b00a2f24e8007f828d0195ff92e6f61, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 10fd7fd9d1c444e4d8cee92c3e8eadd0, type: 2}
   - task: {fileID: 11400000, guid: c77b8d8dbee97fe95bbf4882912b6f91, type: 2}
     ingredients: []
