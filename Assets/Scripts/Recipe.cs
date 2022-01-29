@@ -12,7 +12,7 @@ public class Recipe : ScriptableObject
     [System.Serializable]
     public struct Task {
         public CookingTask task;
-        public Ingredient ingredient;
+        public Ingredient[] ingredients;
     }
     [SerializeField]
     private Task[] tasks;

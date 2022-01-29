@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a832e7c569d2e692d849d9c636d183a8, type: 3}
-  m_Name: Pancake
+  m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
+  m_Name: Pasta
   m_EditorClassIdentifier: 
-  name: Vegetables
-  tex: {fileID: 0}
+  name: 
+  foodTex: {fileID: 0}
+  tasks: []
