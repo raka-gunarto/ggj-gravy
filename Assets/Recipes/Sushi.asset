@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Sushi
   m_EditorClassIdentifier: 
-  name: 
+  name: Sushi
   foodTex: {fileID: 0}
-  tasks: []
+  tasks:
+  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 0389360b4b19bcddb99159c591ef52be, type: 2}
+    - {fileID: 11400000, guid: 9120c3cdbfa7f2ca4a69655b0c87fd2a, type: 2}
+  - task: {fileID: 11400000, guid: c77b8d8dbee97fe95bbf4882912b6f91, type: 2}
+    ingredients: []

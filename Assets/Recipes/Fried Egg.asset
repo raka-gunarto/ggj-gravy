@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Fried Egg
   m_EditorClassIdentifier: 
-  name: 
+  name: Fried Egg
   foodTex: {fileID: 0}
-  tasks: []
+  tasks:
+  - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
+    ingredients: []

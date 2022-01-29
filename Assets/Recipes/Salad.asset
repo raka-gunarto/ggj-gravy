@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Salad
   m_EditorClassIdentifier: 
-  name: 
-  foodTex: {fileID: 0}
-  tasks: []
+  name: Salad
+  foodTex: {fileID: 2800000, guid: 11dd4eddf8aa6384f94001880641bf4f, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 03ca26230b2e7cf3182d58ca3fe4000b, type: 2}
+    - {fileID: 11400000, guid: 8b00a2f24e8007f828d0195ff92e6f61, type: 2}

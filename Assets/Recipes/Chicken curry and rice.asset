@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Chicken curry and rice
   m_EditorClassIdentifier: 
-  name: 
-  foodTex: {fileID: 0}
-  tasks: []
+  name: Chicken curry and rice
+  foodTex: {fileID: 2800000, guid: 696d0f77408ca104fbba46721e613191, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: 975adf765bcf82f0f9464b10bf4cfb33, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 3aa0770a0b7a31669bb1406a1f9de3e0, type: 2}
+  - task: {fileID: 11400000, guid: 15826b7792e60c7cca0a1976b4f9ac93, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 4116fcc82b4028ce89b792d7f5351518, type: 2}
+  - task: {fileID: 11400000, guid: c70eaf300dded62458c1da762a4ca9f4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 30c9341b8680405739d16dc6d857a8a7, type: 2}
+    - {fileID: 11400000, guid: 3aa0770a0b7a31669bb1406a1f9de3e0, type: 2}
