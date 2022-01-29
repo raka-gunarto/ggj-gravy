@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
-  m_Name: Fish with Veg
+  m_Name: Fish Salad
   m_EditorClassIdentifier: 
-  name: Fish with Veg
-  foodTex: {fileID: 2800000, guid: c8d841cededbadd45b6284295f993c09, type: 3}
+  name: Fish salad
+  foodTex: {fileID: 2800000, guid: 59f571fedf7146d40a33c231fa04d9ac, type: 3}
   tasks:
   - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
     ingredients:
-    - {fileID: 11400000, guid: 9cf0373f6c31d441bb14c62f04bb2b9e, type: 2}
-  - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
-    ingredients:
     - {fileID: 11400000, guid: 9120c3cdbfa7f2ca4a69655b0c87fd2a, type: 2}
+    - {fileID: 11400000, guid: 03ca26230b2e7cf3182d58ca3fe4000b, type: 2}
+    - {fileID: 11400000, guid: 8b00a2f24e8007f828d0195ff92e6f61, type: 2}
+  - task: {fileID: 11400000, guid: c77b8d8dbee97fe95bbf4882912b6f91, type: 2}
+    ingredients: []
