@@ -188,7 +188,7 @@ Transform:
   m_Children:
   - {fileID: 409426612}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &173411960
 GameObject:
@@ -299,7 +299,7 @@ Transform:
   m_Children:
   - {fileID: 634652364}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409426611
 GameObject:
@@ -1007,6 +1007,88 @@ Transform:
   m_GameObject: {fileID: 1995575354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2036274258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036274260}
+  - component: {fileID: 2036274259}
+  m_Layer: 0
+  m_Name: CustomerCreation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2036274259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036274258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b852e123e8a81994ea92e2d94b2361bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces:
+  - {fileID: 2800000, guid: 158279211216d5448aa45f851945a9ce, type: 3}
+  - {fileID: 2800000, guid: 90d7b452476d6694ba9a6b187d1844ec, type: 3}
+  - {fileID: 2800000, guid: 6ff92d0a56aa7bb48b8c6d7cb8a32944, type: 3}
+  - {fileID: 2800000, guid: 6ba387581883eb649adf5f123187278d, type: 3}
+  eyes:
+  - {fileID: 2800000, guid: 7c37ecc55e46eb74cafe556c79400cbd, type: 3}
+  - {fileID: 2800000, guid: 09cb6c187b19aaa42975dcffe1965a18, type: 3}
+  - {fileID: 2800000, guid: 74cc59ca55f315d48abffe385575a1fe, type: 3}
+  - {fileID: 2800000, guid: 63a4d3ee32bbfd24ba38eaf1a7415a10, type: 3}
+  - {fileID: 2800000, guid: d25d49a8c90ffff4fb5efd7a5f87fafb, type: 3}
+  - {fileID: 2800000, guid: 077e8671cbe759b4fb673f8ec06315a8, type: 3}
+  hairs:
+  - {fileID: 2800000, guid: f08b7e2be88416740b3ea057df8a9cbb, type: 3}
+  - {fileID: 2800000, guid: 7306b1e6259004642b70381ca462de98, type: 3}
+  - {fileID: 2800000, guid: a7ccc21921add0f4b81f847616b44ad2, type: 3}
+  - {fileID: 2800000, guid: 3c9b46d298c924f45b79abca8ae9238e, type: 3}
+  - {fileID: 2800000, guid: 358292b1842b62149bdec9b9a5a87dcd, type: 3}
+  - {fileID: 2800000, guid: cd84a00594e010c48b3a33bbca7c7092, type: 3}
+  mouths:
+  - {fileID: 2800000, guid: 918a7b66e5c147348b19f1e5892646e8, type: 3}
+  - {fileID: 2800000, guid: fea678cc981eeab4680aa98cec87d2dd, type: 3}
+  - {fileID: 2800000, guid: 3ed124d910ca28d4ebae800f5d469643, type: 3}
+  - {fileID: 2800000, guid: e95adcf539efde549906cec63266a570, type: 3}
+  - {fileID: 2800000, guid: 008657de7d2d47e40b5c5fd748eeaa0f, type: 3}
+  - {fileID: 2800000, guid: c1e36b6fce695744ab7e9d51ee9bb5ca, type: 3}
+  - {fileID: 2800000, guid: a46e93cc2b9b66d458f0602f60004545, type: 3}
+  - {fileID: 2800000, guid: 73f1d79350976d14a8fbcaa75f9cd63a, type: 3}
+  accessories:
+  - {fileID: 2800000, guid: d6bf63fac75a94342bf217932f274eb9, type: 3}
+  - {fileID: 2800000, guid: 2648b16f635ba9f48819633189a58c16, type: 3}
+  - {fileID: 2800000, guid: e4c8492aba9b33a40b26dbef43a40f06, type: 3}
+  - {fileID: 2800000, guid: b98bbdfadee945647820aa87055d9fb9, type: 3}
+  - {fileID: 2800000, guid: 2484dd561783e73438b78cb98feb9b33, type: 3}
+  - {fileID: 2800000, guid: 1b2b24ccf24a00241bf350e579c3a03b, type: 3}
+  noses:
+  - {fileID: 2800000, guid: 883d5c55e480f6247a488c5f054d6bf3, type: 3}
+  - {fileID: 2800000, guid: aacbd5f5cee1cf840b920a27665f5966, type: 3}
+  - {fileID: 2800000, guid: 071bcd49e1656ef478b2cfd236c463c7, type: 3}
+--- !u!4 &2036274260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036274258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5117116, y: 1.4799894, z: -2.603965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

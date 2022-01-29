@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cucumbers
   m_EditorClassIdentifier: 
   name: Cucumbers
-  tex: {fileID: 0}
+  tex: {fileID: 2800000, guid: 354aeb26aada9dd40978c38e4a3b83ea, type: 3}
