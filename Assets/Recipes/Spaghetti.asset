@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
+  m_Name: Spaghetti
+  m_EditorClassIdentifier: 
+  name: Spaghetti
+  foodTex: {fileID: 2800000, guid: 4ea5476fb44f48642ba4d28fe0c5bb3e, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 8b00a2f24e8007f828d0195ff92e6f61, type: 2}
+  - task: {fileID: 11400000, guid: 15826b7792e60c7cca0a1976b4f9ac93, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 0850a8f06d9bec6e9b9c6d691c9d11cb, type: 2}
+  - task: {fileID: 11400000, guid: e6c9538bf73bb900bb02883dd96ee090, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: f1b6518e30a1e397eb822a2309c9610c, type: 2}
