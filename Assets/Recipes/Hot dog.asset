@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Hot dog
   m_EditorClassIdentifier: 
-  name: 
-  foodTex: {fileID: 0}
-  tasks: []
+  name: Hot dog
+  foodTex: {fileID: 2800000, guid: 37bd56cf09960c54794c8c11f2e79e08, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: c70eaf300dded62458c1da762a4ca9f4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 61f2b7e214cb18d8e836af85e5b55827, type: 2}
+  - task: {fileID: 11400000, guid: 15826b7792e60c7cca0a1976b4f9ac93, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: c07a3a0185179d2548fa0e66f0f3746a, type: 2}
+  - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: c07a3a0185179d2548fa0e66f0f3746a, type: 2}
