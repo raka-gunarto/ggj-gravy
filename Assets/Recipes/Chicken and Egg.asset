@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: Chicken and Egg
   m_EditorClassIdentifier: 
   name: Chicken and Egg
+  foodTex: {fileID: 2800000, guid: 5c33d3e28c624bb4e86c0b317d92979c, type: 3}
   tasks:
   - task: {fileID: 11400000, guid: 15826b7792e60c7cca0a1976b4f9ac93, type: 2}
-    ingredient: {fileID: 11400000, guid: 4116fcc82b4028ce89b792d7f5351518, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 4116fcc82b4028ce89b792d7f5351518, type: 2}
   - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
-    ingredient: {fileID: 11400000, guid: 055d32a4e4969ca1582b96e39aad7454, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 055d32a4e4969ca1582b96e39aad7454, type: 2}
