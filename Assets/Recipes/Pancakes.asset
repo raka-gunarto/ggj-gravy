@@ -12,6 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55299775155543181a5e129bcc3d9538, type: 3}
   m_Name: Pancakes
   m_EditorClassIdentifier: 
-  name: 
-  foodTex: {fileID: 0}
-  tasks: []
+  name: Pancakes
+  foodTex: {fileID: 2800000, guid: fab94d2399c4e7947ba3c7bb3ddcbeca, type: 3}
+  tasks:
+  - task: {fileID: 11400000, guid: c70eaf300dded62458c1da762a4ca9f4, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 0c9e2322b51112d49bcfba7b7f6fec90, type: 2}
+    - {fileID: 11400000, guid: 055d32a4e4969ca1582b96e39aad7454, type: 2}
+    - {fileID: 11400000, guid: 8b6978c31f0f5f16c9ae461400de6e11, type: 2}
+  - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 5d6d99a663c38ba46b1b9be75073dccc, type: 2}
