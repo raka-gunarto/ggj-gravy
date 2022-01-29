@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Fish with Veg
   m_EditorClassIdentifier: 
   name: Fish with Veg
+  foodTex: {fileID: 0}
   tasks:
   - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
-    ingredient: {fileID: 11400000, guid: 9cf0373f6c31d441bb14c62f04bb2b9e, type: 2}
-  - task: {fileID: 11400000, guid: 8aa1b349dab448746beb5b97350c41e4, type: 2}
-    ingredient: {fileID: 11400000, guid: 9120c3cdbfa7f2ca4a69655b0c87fd2a, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 9cf0373f6c31d441bb14c62f04bb2b9e, type: 2}
   - task: {fileID: 11400000, guid: e7664dcb0fc9e32eabff91d62f15d6e6, type: 2}
-    ingredient: {fileID: 11400000, guid: 9120c3cdbfa7f2ca4a69655b0c87fd2a, type: 2}
+    ingredients:
+    - {fileID: 11400000, guid: 9120c3cdbfa7f2ca4a69655b0c87fd2a, type: 2}
