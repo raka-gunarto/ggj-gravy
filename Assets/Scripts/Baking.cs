@@ -2,10 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Baking : Minigame
 {
     public int TICKS_SPAN = 500;
+
+    public Color HOTZONE_COLOR = new Color(1.0f, 0.5f, 0.5f, 0.9f);
+    public Color HOTZONE_COLOR_HOVER = new Color(1.0f, 0.0f, 0.0f, 0.9f);
 
     private GameObject _parent;
 
@@ -17,6 +22,8 @@ public class Baking : Minigame
 
     private bool _monitoring;
     private int _ticks = 0;
+
+    private int _score = 0;
 
     public override void Begin()
     {
@@ -40,7 +47,7 @@ public class Baking : Minigame
         _uiHotZone = GameObject.FindGameObjectWithTag("BakingUIHotZone");
 
         _oven = GetChildByName("Oven");
-        _ingredient = GetChildByName("ingredient");
+        _ingredient = GetChildByName("Ingredient");
 
         Begin();//debug
     }
@@ -73,6 +80,26 @@ public class Baking : Minigame
         zonePos.y = containerPos.y;
 
         _uiHotZone.transform.position = zonePos;
+
+        Vector3 mousePos = Input.mousePosition;
+
+        Debug.Log(mousePos);
+        Debug.Log(zonePos);
+
+        if (mousePos.x >= (zonePos.x-zoneSize.x/2) && mousePos.x < (zonePos.x+zoneSize.x/2) &&
+            mousePos.y >= (zonePos.y-zoneSize.y/2) && mousePos.y < (zonePos.y+zoneSize.y/2))
+        {
+            //intersecting with hot zone
+            _uiHotZone.GetComponent<Image>().color = HOTZONE_COLOR_HOVER;
+            if (_ticks % 25 == 0)
+                _score += 1;
+        } else
+        {
+            _uiHotZone.GetComponent<Image>().color = HOTZONE_COLOR;
+        }
+
+        if (_score > 100)
+            _score = 100;
 
         _ticks++;
     }

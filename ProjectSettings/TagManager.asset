@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BakingUIContainer
   - BakingUIHotZone
+  - MinigameController
   layers:
   - Default
   - TransparentFX
