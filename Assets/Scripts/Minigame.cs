@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public abstract class Minigame : MonoBehaviour
 {
@@ -8,9 +9,11 @@ public abstract class Minigame : MonoBehaviour
 
     public Recipe.Task task;
 
+    protected int _score;
+
     public Minigame()
-	{
-	}
+    {
+    }
 
     public abstract void Begin();
 
@@ -19,11 +22,10 @@ public abstract class Minigame : MonoBehaviour
     protected void CompleteTask()
     {
         Cleanup();
+        GameManager.Instance.currentRecipeTask++;
+        GameManager.Instance.scores.Add(_score);
 
-        int numTasks = GameManager.Instance.currentRecipe.Tasks.Length;
-        if (GameManager.Instance.currentRecipeTask++ >= numTasks)
-        {
-            
-        }
+        GameObject.FindGameObjectWithTag("Player").transform.Find("Station Camera").gameObject.SetActive(false);
+        SceneManager.UnloadSceneAsync(this.gameObject.scene);
     }
 }
