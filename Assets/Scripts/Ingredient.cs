@@ -9,4 +9,6 @@ public class Ingredient : ScriptableObject
     private string name;
     [SerializeField]
     private Texture tex;
+
+    public Texture Tex { get { return tex; } }
 }
