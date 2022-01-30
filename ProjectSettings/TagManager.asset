@@ -10,6 +10,7 @@ TagManager:
   - FryingUIPan
   - FryingUIWindow
   - FryingUIContainer
+  - CustomerLine
   layers:
   - Default
   - TransparentFX

@@ -9,8 +9,11 @@ public class Station : MonoBehaviour
     public void Interact()
     {
         if (task.Name != GameManager.Instance.currentRecipe.Tasks[GameManager.Instance.currentRecipeTask].task.Name)
+        {
+            //wrong task, yell at them
             return;
-        
+        }
+
         // camera transition
         GameObject.FindGameObjectWithTag("Player").transform.Find("Station Camera").gameObject.SetActive(true);
         
