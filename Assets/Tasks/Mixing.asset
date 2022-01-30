@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mixing
   pointsBase: 100
+  scene: Mixing

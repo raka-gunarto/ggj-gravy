@@ -38,8 +38,9 @@ public class GameManager : MonoBehaviour
 
     private void LoadAssets()
     {
-        foreach (UnityEngine.Object recipeAsset in AssetDatabase.LoadAllAssetsAtPath("Recipes"))
-            recipes.Add((Recipe)recipeAsset);
+        Debug.Log("here");
+        foreach(var assetGUID in AssetDatabase.FindAssets("t:Recipe"))
+            recipes.Add(AssetDatabase.LoadAssetAtPath<Recipe>(AssetDatabase.GUIDToAssetPath(assetGUID)));
     }
 
     public int stage = 0;
