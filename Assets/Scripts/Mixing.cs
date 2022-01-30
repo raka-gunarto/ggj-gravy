@@ -46,6 +46,7 @@ public class Mixing : Minigame
     void Start()
     {
         _parent = gameObject;
+        //Begin();//debug
     }
 
     void Update()
