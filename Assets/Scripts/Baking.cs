@@ -46,6 +46,8 @@ public class Baking : Minigame
 
         _oven = GetChildByName("Oven");
         _ingredient = GetChildByName("Ingredient");
+
+        Begin();//Debug
     }
 
     void Update()
