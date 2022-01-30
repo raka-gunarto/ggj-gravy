@@ -46,11 +46,13 @@ public class Chopping : Minigame
     private void Start()
     {
         _parent = gameObject;
-        Begin();
     }
 
     void Update()
     {
+        if (!_monitoring)
+            return;
+
         if (!_mousedown && Input.GetMouseButtonDown(0))
         {
             _mousedown = true;
