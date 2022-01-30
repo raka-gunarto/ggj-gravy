@@ -42,12 +42,11 @@ public class GameManager : MonoBehaviour
             recipes.Add((Recipe)recipeAsset);
     }
 
-    public int stage;
-    public int level;
+    public int stage = 0;
     public Recipe currentRecipe;
     public int currentRecipeTask;
 
-    public float score;
+    public List<float> scores;
     // public List<Item> items;
     public List<Recipe> recipes;
 }
