@@ -23,7 +23,7 @@ public abstract class Minigame : MonoBehaviour
         int numTasks = GameManager.Instance.currentRecipe.Tasks.Length;
         if (GameManager.Instance.currentRecipeTask++ >= numTasks)
         {
-            GameManager.Instance.SetPhase(new ResultsPhase());
+            
         }
     }
 }

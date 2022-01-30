@@ -2,45 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using TMPro;
 public class Interaction : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
-    // Start is called before the first frame update
+
+    private Station _station;
+
     void Start()
     {
-        
+        _station = GetComponent<Station>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isInRange)
-        {
-            if(Input.GetKeyDown(interactKey))
-            {
-                interactAction.Invoke();
-            }
-        }
+        if (isInRange && Input.GetKeyDown(interactKey))
+            interactAction.Invoke();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = true;
-            Debug.Log("Player now in range");
+            if (_station)
+            {
+                var speechBubble = collision.gameObject.transform.Find("Speech Bubble");
+                speechBubble.gameObject.SetActive(true);
+                speechBubble.Find("Text").GetComponent<TextMeshPro>().text = _station.task.Name;
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = false;
-            Debug.Log("Player now out of range");
+            if (_station)
+            {
+                var speechBubble = collision.gameObject.transform.Find("Speech Bubble");
+                speechBubble.gameObject.SetActive(false);
+            }
         }
     }
 }
