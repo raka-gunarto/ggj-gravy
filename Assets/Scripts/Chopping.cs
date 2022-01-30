@@ -14,9 +14,6 @@ public class Chopping : Minigame
     private List<UnityEngine.GameObject> rendererObjects = new List<UnityEngine.GameObject>();
 
     private Vector3 _mousedownPos;
-
-    private int _score = 100;
-
     public override void Begin()
     {
         //update ingredient texture

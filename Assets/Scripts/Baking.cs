@@ -23,8 +23,6 @@ public class Baking : Minigame
     private bool _monitoring;
     private int _ticks = 0;
 
-    private int _score = 0;
-
     public override void Begin()
     {
         _oven.SetActive(true);
@@ -48,8 +46,6 @@ public class Baking : Minigame
 
         _oven = GetChildByName("Oven");
         _ingredient = GetChildByName("Ingredient");
-
-        Begin();//debug
     }
 
     void Update()

@@ -22,9 +22,6 @@ public class Mixing : Minigame
     private Vector3 _offset = Vector3.zero;
 
     private int _ticks;
-
-    private int _score;
-
     public override void Begin()
     {
         _bowl = GetMixingBowl();
